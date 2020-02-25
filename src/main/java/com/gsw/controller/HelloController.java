@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/info")
     public String info(){
-        return "Hello SpringBoot Info";
+        return "Hello SpringBoot Info 开发人员提交";
     }
     //开发人员补充 错误发现依然是项目经理提交
     @RequestMapping("/gsw1")
