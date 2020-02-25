@@ -19,4 +19,9 @@ public class HelloController {
     public String gsw2(){
         return "Hello gsw2";
     }
+    //开发人员测试三
+    @RequestMapping("gsw3")
+    public String gsw3(){
+        return "Hello gsw3";
+    }
 }
