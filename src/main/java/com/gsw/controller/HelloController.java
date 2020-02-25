@@ -9,4 +9,9 @@ public class HelloController {
     public String info(){
         return "Hello SpringBoot Info";
     }
+    //开发人员补充
+    @RequestMapping("/gsw")
+    public String gsw(){
+        return "Hello gsw";
+    }
 }
